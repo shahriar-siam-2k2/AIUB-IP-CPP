@@ -1,0 +1,1 @@
+console.assert(false, 'the word is %s', 'siam');

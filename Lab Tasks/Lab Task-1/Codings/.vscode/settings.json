@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

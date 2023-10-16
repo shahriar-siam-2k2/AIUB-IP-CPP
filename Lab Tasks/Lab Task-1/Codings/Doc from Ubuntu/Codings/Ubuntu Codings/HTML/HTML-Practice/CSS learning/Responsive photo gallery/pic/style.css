@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.img {
+    border: 1px solid #ccc;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+.des {
+    padding: 15px;
+    text-align: center;
+}
+.res {
+    float: left;
+    width: 25%;
+    padding: 6px;
+}
+@media only screen and (max-width: 700px) {
+    .res {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .res {
+        width: 100%;
+    }
+}

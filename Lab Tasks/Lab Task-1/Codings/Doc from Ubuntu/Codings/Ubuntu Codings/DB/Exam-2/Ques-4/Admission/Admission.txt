@@ -1,0 +1,5 @@
+#creating table-
+CREATE TABLE Admission (Roll int, Name text, Group_ text, DoB date, Acc_No int, Email text);
+
+#Inserting a record-
+INSERT INTO Admission (Roll, Name, Group_, DoB, Acc_No, Email) VALUES (204777, 'Shahriar Ali Siam', 'Science', '2002-04-03', 26563568204777, 'shahriaraliseam@gmail.com');

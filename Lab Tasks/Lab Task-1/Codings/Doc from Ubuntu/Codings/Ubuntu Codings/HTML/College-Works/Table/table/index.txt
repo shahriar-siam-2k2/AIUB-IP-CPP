@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Table</title>
+	</head>
+	<body>
+		<!-- here is a table for collecting phone number -->
+		<table border="2">
+			<tr>
+				<th>name</th>
+				<th colspan = "2">phone/email</th>
+			</tr>
+			<tr>
+				<td>tanbin</td>
+				<td>01841002187</td>
+				<td>tbrhPublic@gmail.com</td>
+			</tr>
+			<tr>
+				<td rowspan="3">jihan</td>
+				<td>01911992592</td>
+				<td rowspan="2">jihan@gmail.com</td>
+			</tr>
+			<tr>
+				<td>01911992591</td>
+			</tr>
+			<tr>
+				<td>01911992590</td>
+				<td>jihan1@gmail.com</td>
+			</tr>
+			<tr>
+				<td>nasif</td>
+				<td></td>
+				<td>nasif@gmail.com</td>
+			</tr>
+		</table>
+	</body>
+</html>

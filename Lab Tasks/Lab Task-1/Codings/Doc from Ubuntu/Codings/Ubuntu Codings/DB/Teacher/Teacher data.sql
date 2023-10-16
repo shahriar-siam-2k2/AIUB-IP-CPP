@@ -1,0 +1,1 @@
+INSERT INTO teacher(id, name, phone, salary, email) VALUES(001, 'Siam', '01629054073', 4000, 'shahriaraliseam@gmail.com');

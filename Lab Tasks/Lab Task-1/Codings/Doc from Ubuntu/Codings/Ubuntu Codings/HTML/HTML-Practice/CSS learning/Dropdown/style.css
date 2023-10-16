@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #333;
+    text-align:center;
+    padding: 20px 0px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;   
+}
+.dpdn-container {
+    display: inline;
+    position: relative;
+}
+.dpdn-content a {
+    display: block;
+    
+}
+.dpdn-content {
+    position: absolute;
+    top: 40px;
+    right: 9px;
+    background-color: #333;
+    text-align: right;
+    display: none;
+}
+.dpdn-content a {
+    padding: 10px;
+}
+a:hover {
+    transition: 0.1s;
+    background-color: red;
+    padding: 20px;
+    font-weight: bolder;
+}
+.dpdn-content a:hover {
+    background-color: red;
+    padding: 10px;
+}
+.dpdn-container:hover .dpdn-content {
+    display: block;
+}

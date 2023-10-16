@@ -1,0 +1,1 @@
+CREATE TABLE teacher(id int, name text, phone text, salary int, email text);

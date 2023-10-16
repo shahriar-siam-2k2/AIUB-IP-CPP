@@ -1,3 +1,5 @@
+/*Write a C++ program which will take a number as input then it will check whether the number is 
+an integer number or a float number.*/
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,5 @@
+/*Write a C++ program to take five float variables as input from the user. Find out the summation 
+and average of five numbers and check whether the average is an even number or an odd number.*/
 #include <iostream>
 using namespace std;
 

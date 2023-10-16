@@ -1,0 +1,2 @@
+#creating table-
+CREATE TABLE Student(Name text, Roll int,	 Fathers_Mobile_number text, Admission_Date date);

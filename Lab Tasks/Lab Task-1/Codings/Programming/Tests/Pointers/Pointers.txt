@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int a;
+
+    cout << endl;
+    cin >> a;
+
+    cout << endl << &a << endl;
+
+    return 0;
+} //returns memory location of a
+
+int main() {
+
+    int a;
+
+    cout << endl;
+    cin >> a;
+
+    int *ptr = &a;
+
+    cout << endl << ptr << endl;
+
+    return 0;
+} //returns memory location of a
+
+int main() {
+
+    int a;
+
+    cout << endl;
+    cin >> a;
+
+    int *ptr = &a;
+
+    cout << endl << *ptr << endl;
+
+    return 0;
+} //returns a

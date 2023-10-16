@@ -1,0 +1,2 @@
+#Creating Table-
+CREATE TABLE Sylhet_Hotels(Hotel_Name text, Address text, Number_of_Rooms int, Maximum_fare int, Minimum_fare int, Phone_number text);

@@ -1,0 +1,1 @@
+Insert into student(ID, Name, Phone, Email) Values(001, 'Jian', '0162904463', '123jian@jian.com'), (200, 'Shaon', '0221554', '123shauun@jian.com');

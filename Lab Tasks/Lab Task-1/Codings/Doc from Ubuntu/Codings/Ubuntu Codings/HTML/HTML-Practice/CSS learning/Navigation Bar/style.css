@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+.logo{
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 15px;
+    font-size: 50px;
+    color: white;
+    background: rgb(88, 86, 86);
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+li, a, button{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(88, 86, 86);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    grid-area: logo;
+}
+.nav-links{
+    grid-area: links;
+}
+button{
+    grid-area: button;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "logo links button";
+    align-items: center;
+    background: rgb(88, 86, 86);
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    width: 120px;
+}
+
+.nav-links a:hover{
+    color:tomato;
+    background-color: rgb(47, 47, 47);
+    padding: 18px;
+    transition: 50ms linear;
+}
+
+.nav-links a:active{
+    color: white;
+    background-color: tomato;
+    padding: 18px;
+    transition: 0.1ms;
+}
+
+.button button{
+    border: none;
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 6px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    color: white;
+    background-color: rgb(224, 61, 32);
+    transition: 100ms linear;
+}
+
+.button button:active{
+    color: white;
+    background-color: rgb(155, 35, 14);
+    transition: 0.1ms linear;
+}
+
+@media (max-width: 750px){
+    header{
+        display: grid;
+        grid-template-areas: 
+            "logo"
+            "links"
+            "button";
+        text-align: center;  
+    }
+
+    .logo{
+        margin: 15px;
+    }
+
+    .button{
+        margin: 15px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TABLE|HOME</title>
+	</head>
+	
+	<body style = "font-size:30px">
+		<center>
+	
+			<table border = "20" ; style = "text-align:center">
+		
+				<tr>
+					<th>Name</th>
+					<th>Phone</th>
+					<th>Email</th>
+				</tr>
+				
+				<tr>
+					<td rowspan = "2">Siam</td>
+					<td>01629054073</td>
+					<td rowspan = "2">shahriaraliseam@gmail.com</td>
+				</tr>
+				
+				<tr>
+					<td>01518648953</td>
+				</tr>
+				
+				<tr>
+					<td>jihan</td>
+					<td>01772164554</td>
+					<td>jihan@gmail.com</td>
+				</tr>
+				
+				<tr>
+					<td>Noman</td>
+					<td>01554684755</td>
+					<td>innovativestudies@gmail.com</td>
+				</tr>
+		
+			</table>
+		</center>
+	
+	</body>
+	
+</html>

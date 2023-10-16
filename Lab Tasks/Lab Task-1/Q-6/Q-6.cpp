@@ -1,3 +1,4 @@
+/*Implement a C++ program to check whether a number is divisible by 2, 5 and 11 or not. Show the use of ‘OR Operator’ and ‘AND Operator’ in the program if necessary.*/
 #include <iostream>
 using namespace std;
 

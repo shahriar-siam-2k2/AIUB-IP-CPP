@@ -1,3 +1,5 @@
+/*Take a character as input through the keyboard. Write a program to find out whether the gender is Male or Female. (Using If-else and switch case)
+Inputs: take input ‘M’ or ‘m’ for male and take input ‘F’ or ‘f’ for female. For any other input, the result will show “Undefined”.*/
 #include <iostream>
 using namespace std;
 

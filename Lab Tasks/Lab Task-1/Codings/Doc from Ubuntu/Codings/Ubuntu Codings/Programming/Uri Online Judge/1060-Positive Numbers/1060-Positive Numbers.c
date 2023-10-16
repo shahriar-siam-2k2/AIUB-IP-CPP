@@ -1,0 +1,19 @@
+//1060-Positive Numbers
+#include<stdio.h>
+
+int main()
+{
+    int i,n;
+    n=0;
+    float a;
+    for(i=0 ; i<6 ; i++)
+    {
+        scanf("%f",&a);
+        if(a>=0)
+        {
+            n++;
+        }
+    }
+    printf("%d valores positivos\n",n);
+    return 0;
+}
