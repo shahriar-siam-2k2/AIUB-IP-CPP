@@ -14,4 +14,3 @@ int main(){
     cout << "University: " << info[3] << endl;
     return 0;
 }
-
