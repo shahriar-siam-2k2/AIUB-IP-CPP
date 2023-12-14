@@ -21,7 +21,7 @@ class Employee{
                 MonthlySalary = MonthlySalary - (MonthlySalary * ((float)per/100));
             }
             else{
-                cout << "You do not have aby absent days." << endl;
+                cout << "You do not have any absent days." << endl;
                 MonthlySalary = MonthlySalary + (MonthlySalary * (2.2/100));
             }
             return MonthlySalary;

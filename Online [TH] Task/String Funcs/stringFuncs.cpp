@@ -32,8 +32,10 @@ int main(){
    char S1[]="Hello";
    char S2[]="World";
    cout<<"Before S1:"<<S1<<endl;
+   cout<<"Before S2:"<<S2<<endl;
    cout<<"Concatenation:"<<strcat(S1,S2)<<endl;
    cout<<"After S1:"<<S1<<endl;
+   cout<<"After S2:"<<S2<<endl;
  
 }
 
@@ -46,6 +48,7 @@ int main(){
    cout<<"Before S2:"<<S2<<endl;
    cout<<"Concatenation:"<<strcat(S2,S1)<<endl;
    cout<<"After S2:"<<S2<<endl;
+   cout<<"After S1:"<<S1<<endl;
  
 }
 
@@ -58,6 +61,7 @@ int main(){
    cout<<"Before S1:"<<S1<<endl;
    cout<<"Concatenation:"<<strncat(S1,S2,3)<<endl;
    cout<<"After S1:"<<S1<<endl;
+   cout<<"After S2:"<<S2<<endl;
  
 }
 
@@ -70,6 +74,7 @@ int main(){
    cout<<"Before S1:"<<S1<<endl;
    cout<<"Copy:"<<strcpy(S1,S2)<<endl;
    cout<<"After S1:"<<S1<<endl;
+   cout<<"After S2:"<<S2<<endl;
 }
 
 #include<iostream>
@@ -87,7 +92,7 @@ int main(){
 #include<cstring>
 using namespace std;
 int main(){
-   char S1[]="C";
+   char S1[]="E";
    char S2[]="A";
    cout<<"Comparison:"<<strcmp(S1,S2)<<endl;
 }
@@ -192,6 +197,6 @@ int main(){
 using namespace std;
 int main(){
    char S1[]="ABBAB";
-   cout<<"String Search:"<<strstr(S1,"AB")<<endl;
+   cout<<"String Search:"<<strstr(S1,"BA")<<endl;
  
 }
