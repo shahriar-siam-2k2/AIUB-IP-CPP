@@ -117,12 +117,6 @@ int main(){
         cin >> check;
         if(check == true){
             user.transactions();
-            return 0;
-        }
-        cout << endl << "Do you want to check recent transactions? (No=0, Yes=1): ";
-        cin >> check;
-        if(check == true){
-            user.transactions();
         }
     }
     else if(op == 3){
