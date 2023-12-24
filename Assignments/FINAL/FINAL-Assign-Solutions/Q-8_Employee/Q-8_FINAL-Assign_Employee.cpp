@@ -6,7 +6,7 @@ struct Employee{
     float EmployeeSalary;
     int JoiningYear;
 
-    void SetEmpployeeInfo(string name, string id, float sal, int year){
+    void SetEmployeeInfo(string name, string id, float sal, int year){
         EmployeeName = name;
         EmployeeID = id;
         EmployeeSalary = sal;
@@ -52,7 +52,7 @@ int main(){
     cin >> y;
     
     Employee E;
-    E.SetEmpployeeInfo(nm, ID, salary, y);
+    E.SetEmployeeInfo(nm, ID, salary, y);
     E.DisplayInfo();
     return 0;
 }
