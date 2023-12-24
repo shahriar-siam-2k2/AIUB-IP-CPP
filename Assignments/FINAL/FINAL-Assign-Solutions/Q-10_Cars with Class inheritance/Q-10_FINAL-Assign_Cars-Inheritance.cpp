@@ -4,9 +4,9 @@ using namespace std;
 class Car{
     protected:
         string CarName, CarID, CarColor;
-        float Price;
+        double Price;
     public:
-        Car(string name, string id, string color, float price){
+        Car(string name, string id, string color, double price){
             CarName = name;
             CarID = id;
             CarColor = color;
@@ -22,13 +22,13 @@ class Car{
 class TeslaAutopilot : public Car{
     private:
         string CarType;
-        float TaxPercentage;
+        double TaxPercentage;
     public:
-        TeslaAutopilot(string name, string id, string color, float price, string type, float tax) : Car(name, id, color, price){
+        TeslaAutopilot(string name, string id, string color, double price, string type, double tax) : Car(name, id, color, price){
             CarType = type;
             TaxPercentage = tax;
         }
-        float FinalPrice(){
+        double FinalPrice(){
             Price = Price - (Price * (TaxPercentage / 100));
             return Price;
         }
@@ -41,7 +41,7 @@ class TeslaAutopilot : public Car{
 
 int main(){
     string nm, ID, col, typ;
-    float prc, taxPerc;
+    double prc, taxPerc;
 
     cout << endl << "Enter car name: ";
     getline(cin, nm);
