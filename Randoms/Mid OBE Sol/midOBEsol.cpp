@@ -14,11 +14,11 @@ int main(){
     avg = total / 7;
     cout << "Average sells: " << avg << endl;
     for(int i=0 ; i<7 ; i++){
-        if(days[i] > avg){
+        if(days[i] < avg){
             c++;
         }
     }
-    cout << "Count of below average: " << c << endl;
+    cout << "Count of above average: " << c << endl;
     if(total >= 10000){
         cout << "Achievement Completed." << endl;
     }
